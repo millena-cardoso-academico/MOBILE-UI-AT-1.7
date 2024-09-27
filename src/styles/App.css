@@ -1,0 +1,143 @@
+/* Estilos base (Mobile First) */
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #e0f7fa;
+}
+
+.card-container {
+  width: 100%;
+  margin: 20px auto;
+  border: 1px solid #b0bec5;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.profile-section {
+  padding: 20px 10px;
+  text-align: center;
+  background-color: #90caf9;
+  border-bottom: 2px solid #64b5f6;
+}
+
+.profile-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 4px solid #42a5f5;
+  margin-bottom: 15px;
+}
+
+.name {
+  margin: 10px 0 5px;
+  font-size: 1.5em;
+  font-family: 'Audiowide', sans-serif;
+  color: #0d47a1;
+}
+
+.info {
+  margin: 5px 0;
+  font-size: 0.9em;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #1976d2;
+}
+
+.icon-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: #bbdefb;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+}
+
+.task-section {
+  padding: 15px;
+  background-color: #ffffff;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9em;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+th {
+  background-color: #e3f2fd;
+  color: #1565c0;
+}
+
+tr:nth-child(even) {
+  background-color: #f0f4f8;
+}
+
+.checkbox {
+  margin-right: 5px;
+}
+
+@media (min-width: 600px) {
+  .card-container {
+    width: 380px;
+    margin: 30px auto;
+  }
+
+  .profile-section {
+    padding: 40px 20px;
+  }
+
+  .profile-image {
+    width: 160px;
+    height: 160px;
+    border: 6px solid #42a5f5;
+    margin-bottom: 20px;
+  }
+
+  .name {
+    margin: 15px 0 10px;
+    font-size: 2em;
+  }
+
+  .info {
+    font-size: 1em;
+  }
+
+  .icon-section {
+    padding: 15px;
+  }
+
+  .icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .task-section {
+    padding: 20px;
+  }
+
+  table {
+    font-size: 1em;
+  }
+
+  th, td {
+    padding: 15px;
+  }
+
+  .checkbox {
+    margin-right: 10px;
+  }
+
+  th:nth-child(2), td:nth-child(2) {
+    width: 60%;
+  }
+}
